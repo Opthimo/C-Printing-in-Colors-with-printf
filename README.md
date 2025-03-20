@@ -140,5 +140,3 @@ int main() {
 Mastering ANSI escape codes can significantly enhance command-line applications, making logs more readable and CLI tools more interactive. Try integrating these techniques into your scripts, command-line utilities, and even progress indicators!
 
 For advanced users, **TrueColor (24-bit color)** support allows for finer control over color output. Research `\033[38;2;<R>;<G>;<B>m` for foreground colors and `\033[48;2;<R>;<G>;<B>m` for background colors!
-
-
