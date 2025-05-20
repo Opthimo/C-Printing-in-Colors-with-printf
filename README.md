@@ -133,7 +133,13 @@ int main() {
 ## 4) Questions
 
 1. What happens if you omit `\033[0m` at the end of a print statement?
+
+The style keeps active till the next '\033[0m' accures
+
 2. Can you find a way to use RGB colors in the terminal instead of the 8 basic ones?
+
+\033[38;2;<R>;<G>;<B>m
+
 3. How does your terminal handle escape codes? Do some codes work differently in different terminal emulators?
 
 ## 5) Advice
